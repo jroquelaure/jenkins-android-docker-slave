@@ -1,4 +1,4 @@
-FROM jenkins/jnlp-slave
+FROM yodafrog.sas.jfrog.internal:5001/jenkins/jnlp-slave
 #FROM bitriseio/docker-bitrise-base-alpha:latest
 
 ENV ANDROID_HOME /opt/android-sdk-linux
